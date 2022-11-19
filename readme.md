@@ -1,19 +1,9 @@
-### Lecture 1
+###Logic
 
-- Python Downloading And Installation
-- Github And VCS(Version Control System)
-- Python Basic Syntax
-- Variables, DataTypes (Intro To List, Dict
-    Tuples, Sets, )
-- Type Function
+---
 
-
-## Logic
-
-You are going to make the tea System
-in Python using if-else statement
-
-in which you take inputs following inputs:
+You are going to make the tea system in python using if-else statement with the following inputs
+    
 - Milk
 - Tea
 - Water
@@ -22,29 +12,50 @@ in which you take inputs following inputs:
 - Stove
 - Sugar
 
-### Pesudo Code
+---
 
-    milk_have = input(Do you have milk..Yes/No?)
-    tea = input(Do you have Tea..Yes/No?)
-    water = input(Do you have water..Yes/No?)
-    Pan = input(Do you have Pan..Yes/No?)
-    Fire = input(Do you have Fire..Yes/No?)
-    Stove = input(Do you have Stove..Yes/No?)   
-    Sugar = input(Do you have Sugar..Yes/No?)
+###Pseudo code
 
-    if milk == "Yes" or "yes":
-        if tea == "Yes" or "yes":
-            if water == "Yes" or "yes":
-                if Pan == "Yes" or "yes":
-                    if Fire == "Yes" or "yes":
-                        if Stove "Yes" or "yes":
-                            if Sugar "Yes" or "yes":
-                                print("Hurrah You can make tea.. Enjoy)
-                            
-                            else:
-                        else:
-                    else:
-                else:
-            else:
-        else:
-    else:
+- Taking inputs
+
+---
+
+    milk_have = input("Do you have milk ? Yes/No)
+    tea = input("Do you have tea ? Yes/No)
+    water = input("Do you have water ? Yes/No)
+    pan = input("Do you have pan ? Yes/No)
+    fire = input("Do you have fire ? Yes/No)
+    stove = input("Do you have stove ? Yes/No)
+    sugar = input("Do you have sugae ? Yes/No)
+
+---
+
+
+- Logic of the code
+
+---
+
+ Declaring a variable "things_need_to_buy" to add the list of products which the tea maker doesn't have!
+
+    if milk_have == "No" or "no":
+        adds the milk packet product to the things to buy list
+    if tea == "No" or "no":
+        adds the tea bags product to the things to buy list
+    if water == "No" or "no":
+        adds the water bottle product to the things to buy list
+    if pan == "No" or "no":
+        adds the milk pan product to the things to buy list
+    if fire == "No" or "no":
+        adds the gas lighter product to the things to buy list
+    if stove == "No" or "no":
+        adds the gas stove product to the things to buy list
+    if sugar == "No" or "no":
+        adds the sugar packet product to the things to buy list
+
+    if things_need_to_buy has no string :
+        print("You can make tea and enjoy")
+    else :
+        print(things_need_to_buy)
+
+---
+
