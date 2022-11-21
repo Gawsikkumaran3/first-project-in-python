@@ -1,9 +1,9 @@
-###Logic
+### Logic
 
----
+You are going to make the tea System
+in Python using if-else statement
 
-You are going to make the tea system in python using if-else statement with the following inputs
-    
+in which you take inputs following inputs:
 - Milk
 - Tea
 - Water
@@ -12,50 +12,46 @@ You are going to make the tea system in python using if-else statement with the 
 - Stove
 - Sugar
 
----
+### Variables to be declared
 
-###Pseudo code
+- track_products
+- water_added
+- tea_added
+- milk_added
+- fire_added
+- stove_added
+- pan_added
+- sugar_added
 
-- Taking inputs
+### Pseudo Code
 
----
+    loop(runs till the program ends):
 
-    milk_have = input("Do you have milk ? Yes/No)
-    tea = input("Do you have tea ? Yes/No)
-    water = input("Do you have water ? Yes/No)
-    pan = input("Do you have pan ? Yes/No)
-    fire = input("Do you have fire ? Yes/No)
-    stove = input("Do you have stove ? Yes/No)
-    sugar = input("Do you have sugae ? Yes/No)
+        if product_added == no
+            product = input(Do you have water..Yes/No?)
+        if product == yes
+            product_added = yes
+            track_counter.append(value)
+        if product_added = yes and value in track_counter:
+            pass for all the products
+            print ("Hurrah! Here is your tea , you can taste and enjoy it!") #if all the products are available
 
----
+        elif product = no
+            product_added = input("Is the product added ? Yes/No ")
+            if product_added = no
+                confirmation = input("Do you want to continue making tea ? Yes/No ")
+                if confirmation == yes
+                    pass
+                elif confirmation == no
+                    quit()
+                else
+                    Enter a valid input - Yes/No
+            elif product_added = yes
+                track_products.append(value)
+				break	
+            else
+                Enter a valid input - Yes/No
+        else
+                Enter a valid input - Yes/No
 
-
-- Logic of the code
-
----
-
- Declaring a variable "things_need_to_buy" to add the list of products which the tea maker doesn't have!
-
-    if milk_have == "No" or "no":
-        adds the milk packet product to the things to buy list
-    if tea == "No" or "no":
-        adds the tea bags product to the things to buy list
-    if water == "No" or "no":
-        adds the water bottle product to the things to buy list
-    if pan == "No" or "no":
-        adds the milk pan product to the things to buy list
-    if fire == "No" or "no":
-        adds the gas lighter product to the things to buy list
-    if stove == "No" or "no":
-        adds the gas stove product to the things to buy list
-    if sugar == "No" or "no":
-        adds the sugar packet product to the things to buy list
-
-    if things_need_to_buy has no string :
-        print("You can make tea and enjoy")
-    else :
-        print(things_need_to_buy)
-
----
 
